@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PWA Checker</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .status {
+            text-align: center;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+        .is-pwa {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .not-pwa {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .checking {
+            background-color: #cce5ff;
+            color: #004085;
+        }
+        .footer {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 12px;
+            color: #6c757d;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center; margin-top: 0;">PWA Checker</h2>
+        <div id="status" class="status checking">Checking...</div>
+    </div>
+    <div class="footer">
+        Created by <a href="https://alirezasaddeghi.ir/bio" target="_blank">alirezasaddeghi</a>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 
